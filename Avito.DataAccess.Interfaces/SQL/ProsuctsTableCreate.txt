@@ -1,0 +1,12 @@
+﻿CREATE TABLE products
+(
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(100) not null,
+	description text not null,
+	price integer not null,
+	date date,
+	user_id integer,
+	CONSTRAINT fk_products
+      FOREIGN KEY(user_id) 
+	  REFERENCES users(id)
+);

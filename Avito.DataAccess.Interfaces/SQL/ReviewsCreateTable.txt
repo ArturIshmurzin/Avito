@@ -1,0 +1,10 @@
+﻿CREATE TABLE reviews
+(
+	id SERIAL PRIMARY KEY,
+	author_id integer not null,
+	description text not null,
+	date date,
+	salesman_id integer,
+	foreign key (author_id) references users(id),
+    foreign key (salesman_id) references users(id)
+);

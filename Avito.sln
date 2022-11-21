@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avito", "Avito\Avito.csproj", "{1EA9FEAA-BD14-49E7-89FF-C00462A82977}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avito", "Avito\Avito.csproj", "{1EA9FEAA-BD14-49E7-89FF-C00462A82977}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avito.DataAccess.Interfaces", "Avito.DataAccess.Interfaces\Avito.DataAccess.Interfaces.csproj", "{63393359-4295-45A5-84F3-CDBF86718E51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avito.Domain", "Avito.Domain\Avito.Domain.csproj", "{0575D948-2F95-42E5-8000-FA631EAF4A25}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avito.DataAccess.Postgres", "Avito.DataAccess.Postgres\Avito.DataAccess.Postgres.csproj", "{DB4C3EC1-AA7F-44EB-8B58-06CF2D594CAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{1EA9FEAA-BD14-49E7-89FF-C00462A82977}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EA9FEAA-BD14-49E7-89FF-C00462A82977}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EA9FEAA-BD14-49E7-89FF-C00462A82977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63393359-4295-45A5-84F3-CDBF86718E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63393359-4295-45A5-84F3-CDBF86718E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63393359-4295-45A5-84F3-CDBF86718E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63393359-4295-45A5-84F3-CDBF86718E51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0575D948-2F95-42E5-8000-FA631EAF4A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0575D948-2F95-42E5-8000-FA631EAF4A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0575D948-2F95-42E5-8000-FA631EAF4A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0575D948-2F95-42E5-8000-FA631EAF4A25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB4C3EC1-AA7F-44EB-8B58-06CF2D594CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB4C3EC1-AA7F-44EB-8B58-06CF2D594CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB4C3EC1-AA7F-44EB-8B58-06CF2D594CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB4C3EC1-AA7F-44EB-8B58-06CF2D594CAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

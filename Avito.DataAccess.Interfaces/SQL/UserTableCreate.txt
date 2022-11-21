@@ -1,0 +1,8 @@
+﻿CREATE TABLE Users
+{
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(100) not null,
+	phone_number VARCHAR(30) not null UNIQUE,
+	email VARCHAR(100) not null UNIQUE,
+	registration_date date
+}

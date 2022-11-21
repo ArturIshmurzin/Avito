@@ -1,0 +1,7 @@
+﻿INSERT INTO public.users(
+	name, phone_number, email, registration_date)
+	VALUES ('Паша', '89995867444', 'pasha12@gmail.com', '11.12.2020'),
+	('Коля', '88995867978', 'kolya@gmail.com', '23.11.2018'),
+	 ('Оля', '88995867998', 'olya@gmail.com', '12.02.2018'),
+	('Света', '88998864978', 'sveta5@gmail.com', '23.11.2015'),
+	('Игорь', '88998456578', 'tiger@gmail.com', '23.11.2017');
